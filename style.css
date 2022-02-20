@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(10, 18, 31);
+  color: white;
+}
+td {
+  border: 1px white solid;
+}
+* {
+  margin: 0;
+}
+table {
+  width: 90%;
+  margin: auto;
+}
+table tr:first-of-type {
+  height: 50px;
+}
+tr td:first-of-type {
+  width: 3%;
+}
+td {
+  width: 15%;
+  text-align: center;
+}
+.item {
+  width: 100%;
+  height: 100%;
+}
+.item h5 {
+  margin: 8px 0 8px 0;
+  font-weight: normal;
+}
+.item h6 {
+  margin: 8px 0 8px 0;
+}
+.lecture {
+  background: #051040;
+}
+.lab {
+  background: #1034a6;
+}
+.exercises {
+  background: #28314d;
+}
